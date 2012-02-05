@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images" >
+        <file>Resources/add.png</file>
+        <file>Resources/bloklijst.png</file>
+        <file>Resources/boekinfo.png</file>
+        <file>Resources/cijferlijst.png</file>
+        <file>Resources/delete.png</file>
+        <file>Resources/foto.png</file>
+        <file>Resources/inhoudsopgave.png</file>
+        <file>Resources/new.png</file>
+        <file>Resources/nieuwePagina.png</file>
+        <file>Resources/open.png</file>
+        <file>Resources/opslaan.png</file>
+        <file>Resources/quit.png</file>
+        <file>Resources/tekst.png</file>
+        <file>Resources/titel.png</file>
+    </qresource>
+</RCC>

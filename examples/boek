@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<boek test="test" >
+ <boekinformatie width="100" heigth="100" isbn="isbn nummer" editie="1ste editie" jaar="2000" naamuitgeverij="naam uitgeverij" versie="versie" titel="titel" adresuitgeverij="adres uitgeverij" >
+  <auteurs>
+   <auteur naam="asdfasdf" />
+   <auteur naam="asdfasdf" />
+  </auteurs>
+ </boekinformatie>
+ <deel titel="Inleiding" >
+  <pagina>
+   <component beschrijving="type hier de beschrijving van de foto in" type="1" link=":/images/Resources/foto.png" >
+    <layout>
+     <point ypos="33" xpos="172" />
+     <size hoogte="89" breedte="192" />
+     <font fontfamily="MS Shell Dlg 2" pointsize="8" fontweight="50" italic="0" />
+    </layout>
+   </component>
+   <component deeltitel="0" type="2" inhoud="Een boek" >
+    <layout>
+     <point ypos="154" xpos="120" />
+     <size hoogte="49" breedte="171" />
+     <font fontfamily="Helvetica" pointsize="28" fontweight="75" italic="0" />
+    </layout>
+   </component>
+   <component type="5" >
+    <layout>
+     <point ypos="252" xpos="15" />
+     <size hoogte="157" breedte="309" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </component>
+  </pagina>
+  <pagina>
+   <component deeltitel="1" type="2" inhoud="Hoofdstuk 1" >
+    <layout>
+     <point ypos="30" xpos="30" />
+     <size hoogte="29" breedte="171" />
+     <font fontfamily="Helvetica" pointsize="16" fontweight="75" italic="0" />
+    </layout>
+   </component>
+   <type type="0" inhoud="type hier uw tekst" >
+    <layout>
+     <point ypos="94" xpos="30" />
+     <size hoogte="21" breedte="200" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </type>
+  </pagina>
+ </deel>
+</boek>

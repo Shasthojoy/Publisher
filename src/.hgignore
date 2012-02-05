@@ -1,0 +1,13 @@
+syntax: glob
+*.suo
+*.user
+*/Debug/*
+*/Release/*
+debug/*
+release/*
+*Deleted/*
+*.ncb
+*.nlb
+*.clw
+*.pdb
+*/GeneratedFiles/*

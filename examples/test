@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<boek test="test" >
+ <boekinformatie width="100" heigth="100" isbn="isbn nummer" editie="1ste editie" jaar="2000" naamuitgeverij="naam uitgeverij" versie="versie" titel="titel" adresuitgeverij="adres uitgeverij" >
+  <auteurs>
+   <auteur naam="Mathy" />
+   <auteur naam="Robin" />
+  </auteurs>
+ </boekinformatie>
+ <deel titel="Hoofdstuk 1" >
+  <pagina>
+   <component lijsttype="1" type="3" >
+    <layout>
+     <point ypos="14" xpos="34" />
+     <size hoogte="32" breedte="202" />
+     <font fontfamily="MS Shell Dlg 2" pointsize="8" fontweight="50" italic="0" />
+    </layout>
+    <inhoud>
+     <lijstitem inhoud="Item 1" />
+     <lijstitem inhoud="item 2" />
+    </inhoud>
+   </component>
+   <component deeltitel="1" type="2" inhoud="inleiding" >
+    <layout>
+     <point ypos="17" xpos="154" />
+     <size hoogte="21" breedte="73" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </component>
+   <type type="0" inhoud="Typ uw tekst hier" >
+    <layout>
+     <point ypos="113" xpos="73" />
+     <size hoogte="31" breedte="183" />
+     <font fontfamily="Informal Roman" pointsize="18" fontweight="50" italic="1" />
+    </layout>
+   </type>
+  </pagina>
+  <pagina>
+   <type type="0" inhoud="type hier uw tekst" >
+    <layout>
+     <point ypos="30" xpos="25" />
+     <size hoogte="23" breedte="200" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </type>
+   <component beschrijving="type hier de beschrijving van de foto in" type="1" link=":/images/Resources/foto.png" >
+    <layout>
+     <point ypos="203" xpos="69" />
+     <size hoogte="89" breedte="192" />
+     <font fontfamily="MS Shell Dlg 2" pointsize="8" fontweight="50" italic="0" />
+    </layout>
+   </component>
+   <type type="0" inhoud="type hier uw tekst" >
+    <layout>
+     <point ypos="204" xpos="213" />
+     <size hoogte="23" breedte="200" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </type>
+   <type type="0" inhoud="type hier uw tekst" >
+    <layout>
+     <point ypos="330" xpos="25" />
+     <size hoogte="23" breedte="200" />
+     <font fontfamily="Helvetica" pointsize="12" fontweight="50" italic="0" />
+    </layout>
+   </type>
+  </pagina>
+  <pagina>
+   <type type="0" inhoud="Typ uw tekst hier" >
+    <layout>
+     <point ypos="31" xpos="35" />
+     <size hoogte="31" breedte="200" />
+     <font fontfamily="Informal Roman" pointsize="18" fontweight="50" italic="1" />
+    </layout>
+   </type>
+   <component beschrijving="Een foto" type="1" link=":/images/Resources/foto.png" >
+    <layout>
+     <point ypos="120" xpos="35" />
+     <size hoogte="89" breedte="66" />
+     <font fontfamily="MS Shell Dlg 2" pointsize="8" fontweight="50" italic="0" />
+    </layout>
+   </component>
+  </pagina>
+  <pagina>
+   <type type="0" inhoud="type hier uw tekst" >
+    <layout>
+     <point ypos="31" xpos="35" />
+     <size hoogte="31" breedte="200" />
+     <font fontfamily="Informal Roman" pointsize="18" fontweight="50" italic="1" />
+    </layout>
+   </type>
+   <component beschrijving="type hier de beschrijving van de foto in" type="1" link=":/images/Resources/foto.png" >
+    <layout>
+     <point ypos="120" xpos="35" />
+     <size hoogte="89" breedte="192" />
+     <font fontfamily="MS Shell Dlg 2" pointsize="8" fontweight="50" italic="0" />
+    </layout>
+   </component>
+  </pagina>
+ </deel>
+ <deel titel="Nieuw Deel2" />
+ <deel titel="Nieuw Deel" />
+</boek>
